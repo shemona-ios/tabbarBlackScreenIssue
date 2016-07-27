@@ -2,18 +2,18 @@
 //  AppDelegate.swift
 //  Tabbar
 //
-//  Created by Yogesh on 7/26/16.
+//  Created by Shemona on 7/26/16.
 //  Copyright © 2016 test. All rights reserved.
 //
 
 import UIKit
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
-
+class AppDelegate: UIResponder, UIApplicationDelegate
+{
     var window: UIWindow?
-
-
+    
+    
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         return true

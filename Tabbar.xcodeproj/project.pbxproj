@@ -12,6 +12,10 @@
 		ECFE4B661D480B1200000222 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECFE4B641D480B1200000222 /* Main.storyboard */; };
 		ECFE4B681D480B1200000222 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECFE4B671D480B1200000222 /* Assets.xcassets */; };
 		ECFE4B6B1D480B1200000222 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECFE4B691D480B1200000222 /* LaunchScreen.storyboard */; };
+		ECFE4B731D480F0B00000222 /* ViewControllerRed.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFE4B721D480F0B00000222 /* ViewControllerRed.swift */; };
+		ECFE4B751D480F1600000222 /* ViewControllerBlue.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFE4B741D480F1600000222 /* ViewControllerBlue.swift */; };
+		ECFE4B771D480F2000000222 /* ViewControllerGreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFE4B761D480F2000000222 /* ViewControllerGreen.swift */; };
+		ECFE4B791D4811DE00000222 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFE4B781D4811DE00000222 /* Tab.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		ECFE4B671D480B1200000222 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECFE4B6A1D480B1200000222 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECFE4B6C1D480B1200000222 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECFE4B721D480F0B00000222 /* ViewControllerRed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerRed.swift; sourceTree = "<group>"; };
+		ECFE4B741D480F1600000222 /* ViewControllerBlue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerBlue.swift; sourceTree = "<group>"; };
+		ECFE4B761D480F2000000222 /* ViewControllerGreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerGreen.swift; sourceTree = "<group>"; };
+		ECFE4B781D4811DE00000222 /* Tab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +63,11 @@
 			isa = PBXGroup;
 			children = (
 				ECFE4B601D480B1200000222 /* AppDelegate.swift */,
+				ECFE4B781D4811DE00000222 /* Tab.swift */,
 				ECFE4B621D480B1200000222 /* ViewController.swift */,
+				ECFE4B761D480F2000000222 /* ViewControllerGreen.swift */,
+				ECFE4B741D480F1600000222 /* ViewControllerBlue.swift */,
+				ECFE4B721D480F0B00000222 /* ViewControllerRed.swift */,
 				ECFE4B641D480B1200000222 /* Main.storyboard */,
 				ECFE4B671D480B1200000222 /* Assets.xcassets */,
 				ECFE4B691D480B1200000222 /* LaunchScreen.storyboard */,
@@ -136,7 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECFE4B631D480B1200000222 /* ViewController.swift in Sources */,
+				ECFE4B771D480F2000000222 /* ViewControllerGreen.swift in Sources */,
 				ECFE4B611D480B1200000222 /* AppDelegate.swift in Sources */,
+				ECFE4B791D4811DE00000222 /* Tab.swift in Sources */,
+				ECFE4B751D480F1600000222 /* ViewControllerBlue.swift in Sources */,
+				ECFE4B731D480F0B00000222 /* ViewControllerRed.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
